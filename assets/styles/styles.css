@@ -1,36 +1,15 @@
-* {
-    font-family: monospace;
-}
-
 body {
-    font-size: 16px;
+    font-size: medium;
+    font-family: monospace;
+    line-height: 1.5;
+    background-color:rgb(36, 36, 36);
+    color: rgb(220, 238, 255);
 }
 
-h1, h2 {
-    color: blue;
-}
-
-button, input, textarea, select {
-    font: inherit;
-}
-
-p {
-    color: purple;
+h2 {
+    color: rgba(255, 0, 0, 0.7)
 }
 
 p {
-    color: red;
-}
-
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-.gray {
-    color: gray;
-}
-
-#second {
-    font-style: italic;
+    color: #ffffff;
 }
