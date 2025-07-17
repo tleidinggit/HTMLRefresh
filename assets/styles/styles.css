@@ -30,6 +30,12 @@ h2 {
     border-radius: 1rem 1rem 0 0;
 }
 
+.test {
+    display: inline;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
 ul {
     list-style: none;
     padding: 0;
