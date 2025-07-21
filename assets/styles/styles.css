@@ -23,6 +23,17 @@ nav {
     line-height: 3rem;
 }
 
+.block {
+    width: 30vw;
+    height: 50vw;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
 h2 {
     padding: 1rem;
     background-color: #282c34;
