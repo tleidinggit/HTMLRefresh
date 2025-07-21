@@ -32,6 +32,8 @@ nav {
 .left {
     float: left;
     margin-right: 1rem;
+    position: relative;
+    left: 0;
 }
 
 .columns {
