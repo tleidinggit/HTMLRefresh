@@ -25,7 +25,7 @@ nav {
 
 .block {
     width: 30vw;
-    height: 50vw;
+    height: 30vw;
     padding: 1rem;
 }
 
@@ -34,11 +34,30 @@ nav {
     margin-right: 1rem;
 }
 
+.columns {
+    columns: 3 250px;
+    column-rule: 1px solid #61dafb;
+    column-gap: 2rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
 h2 {
     padding: 1rem;
     background-color: #282c34;
 
     border-radius: 1rem 1rem 0 0;
+}
+
+h3 {
+    margin-top: 0rem;
+    background-color: #282c34;
+    border:2px solid #61dafb;
+    padding: 0.5rem;
+    border-radius: 5px;
+    break-inside: avoid;
 }
 
 .test {
