@@ -36,6 +36,28 @@ nav {
     left: 0;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: #21a1f1 2px solid;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.box {
+    background-color: #61dafb;
+    color: black;
+    width: 20%;
+    height: 100px;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+}
+
 .columns {
     columns: 3 250px;
     column-rule: 1px solid #61dafb;
